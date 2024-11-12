@@ -1,0 +1,194 @@
+body{
+    font-family: 'arial'; 
+    background-color: black;  
+
+}
+
+#menu{
+    display: flex;
+    justify-content: space-around;
+    flex:1;
+}
+
+#menu>li>a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+#menu>li{
+    list-style: none;
+
+}
+
+#belogo{
+
+    animation: fadein;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+
+}
+#anim1{
+    animation: fadein;
+    animation-duration: 1s;
+    animation-delay: 250ms;
+    animation-fill-mode: both;
+}
+#anim2{
+    animation: fadein;
+    animation-duration: 1s;
+    animation-delay: 500ms;
+    animation-fill-mode: both;
+}
+#anim3{
+    animation: fadein;
+    animation-duration: 1s;
+    animation-delay: 750ms;
+    animation-fill-mode: both;
+}
+#anim4{
+    animation: fadein;
+    animation-duration: 1s;
+    animation-delay: 1000ms;
+    animation-fill-mode: both;
+}
+#anim5{
+    animation: fadein;
+    animation-duration: 1s;
+    animation-delay: 1250ms;
+    animation-fill-mode: both;
+}
+#anim6{
+    animation: fadein;
+    animation-duration: 1s;
+    animation-delay: 1500ms;
+    animation-fill-mode: both;
+}
+#anim7{
+    animation: fadein;
+    animation-duration: 1s;
+    animation-delay: 1750ms;
+    animation-fill-mode: both;
+}
+
+#just{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 60px;
+    background-color: black;
+    color: white;
+
+}
+
+#actutitle{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+#msup{
+    color: white;
+    background-color: black;
+}
+
+#minf{
+    color: black;
+    background-color: white;
+    padding: 50px;
+}
+
+#imlist{
+    display: flex;
+    flex-direction: row;
+}
+
+#list{
+    width: 100%;
+}
+
+#actu1{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    border: solid black;
+    padding: 10px;
+    box-shadow: 5px;
+}
+#actu2{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    border: solid black;
+    padding: 10px;
+    box-shadow: 5px;
+}
+#actu3{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    border: solid black;
+    padding: 10px;
+    box-shadow: 5px;
+}
+
+#actus{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+#jeuxvedette{
+    color: white;
+    background-color: black;
+}
+
+#dbd{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#descdbd{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#tcofs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#desctcofs{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#jeuxvedettetitle{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+#droits{
+    color: white;
+    padding: 60px;
+}
+
+#footer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+@keyframes fadein{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
