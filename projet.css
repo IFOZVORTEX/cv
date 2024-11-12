@@ -188,6 +188,10 @@ body{
     align-items: center;
 }
 
+.suite{
+    color: black;
+}
+
 @keyframes fadein{
     0%{opacity: 0;}
     100%{opacity: 1;}
